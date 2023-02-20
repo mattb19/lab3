@@ -40,7 +40,7 @@ print()
 # case 1 UR5e robot
 
 # get all 6 joint transformations
-J1 = model.dh_transformation(0,         theta,  1.625,  0)
+J1 = model.dh_transformation(0,         theta,  0.1625,  0)
 J2 = model.dh_transformation(-0.425,    0,      0,      0)
 J3 = model.dh_transformation(-0.3922,   0,      0,      0)
 J4 = model.dh_transformation(0,         theta,  1.1333, 0)
@@ -78,10 +78,10 @@ print()
 # case 2 UR5e robot
 
 # get all 6 joint transformations
-J1 = model.dh_transformation(0,         theta,  1.625,  0)
+J1 = model.dh_transformation(0,         theta,  0.1625,  0)
 J2 = model.dh_transformation(-0.425,    0,      0,      -theta)
 J3 = model.dh_transformation(-0.3922,   0,      0,      0)
-J4 = model.dh_transformation(0,         theta,  1.1333, 0)
+J4 = model.dh_transformation(0,         theta,  0.1333, 0)
 J5 = model.dh_transformation(0,         -theta, 0.0997, 0)
 J6 = model.dh_transformation(0,         0,      0.0996, 0)
 
