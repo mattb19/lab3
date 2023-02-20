@@ -43,7 +43,7 @@ print()
 J1 = model.dh_transformation(0,         theta,  0.1625,  0)
 J2 = model.dh_transformation(-0.425,    0,      0,      0)
 J3 = model.dh_transformation(-0.3922,   0,      0,      0)
-J4 = model.dh_transformation(0,         theta,  1.1333, 0)
+J4 = model.dh_transformation(0,         theta,  0.1333, 0)
 J5 = model.dh_transformation(0,         -theta, 0.0997, 0)
 J6 = model.dh_transformation(0,         0,      0.0996, 0)
 
